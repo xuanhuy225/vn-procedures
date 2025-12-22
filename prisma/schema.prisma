@@ -65,28 +65,3 @@ model Location {
 
   @@map("locations")
 }
-
-enum ProcedureCategory {
-  REAL_ESTATE
-  VEHICLE
-  CIVIL
-}
-
-enum AuthorityLevel {
-  COMMUNE
-  DISTRICT
-  PROVINCE
-  CENTRAL
-}
-
-enum LocationLevel {
-  PROVINCE
-  DISTRICT
-  WARD
-}
-
-enum PreparedBy {
-  BUYER
-  SELLER
-  BOTH
-}
